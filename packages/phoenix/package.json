@@ -1,0 +1,40 @@
+{
+  "name": "@desoul2411/phoenix",
+  "version": "1.0.1",
+  "description": "> TODO: description",
+  "author": "Carlos Castro <cdcastrofelix@gmail.com>",
+  "homepage": "https://github.com/davixyz/phoenix/tree/master/packages/phoenix#readme",
+  "license": "ISC",
+  "main": "dist/phoenix.cjs.js",
+  "module": "dist/phoenix.esm.js",
+  "src": "lib/phoenix.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davixyz/phoenix.git"
+  },
+  "scripts": {
+    "build": "phoenix-builder",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/davixyz/phoenix/issues"
+  },
+  "dependencies": {
+    "@desoul2411/phoenix-button": "^1.0.1",
+    "@desoul2411/phoenix-text": "^1.0.1"
+  },
+  "devDependencies": {
+    "@desoul2411/phoenix-builder": "^1.0.1"
+  }
+}
